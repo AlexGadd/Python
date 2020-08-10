@@ -181,7 +181,7 @@ def hangman(data):
             guesses = guesses + str(each)
     
         if numberOfGuesses < 1:
-            print(f"You lost! The word was '{choice}''")
+            print(f"You lost! The word was '{choice}'")
             exit()
 
         count = int(len(choice)  - 1)
